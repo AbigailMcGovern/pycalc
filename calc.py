@@ -3,15 +3,14 @@ import numpy as np
 from time import sleep
 
 def compute(expression):
-    values = expression.split(' ')
-    num0 = int(values[0])
-    operator = values[1]
-    num1 = int(values[2])
+    num0, operator, num1 = expression.split(' ')
     if operator == '+':
         return num0 + num1
+    elif operator == '-':
+        return num0 - num1
     else:
         print('unknown operator!')
-        return 0
+        return None
 
 def until_the_cows_come_home():
     the_cows_are_home = False
