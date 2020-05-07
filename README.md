@@ -1,2 +1,2 @@
 # pycalc
-OSS &amp; Git Tutorial
+Data Fluency: OSS &amp; Git Tutorial
